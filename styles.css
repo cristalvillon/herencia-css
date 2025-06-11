@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .site-header {
+    :contentReference[oaicite:2]{index=2}
+    padding: 1rem;
+    :contentReference[oaicite:3]{index=3}
+  }
+  
+  :contentReference[oaicite:4]{index=4}
+  :contentReference[oaicite:5]{index=5}
+    :contentReference[oaicite:6]{index=6}
+    :contentReference[oaicite:7]{index=7}
+    color: inherit;
+  }
+  
+  :contentReference[oaicite:8]{index=8}
+  .custom-box {
+    :contentReference[oaicite:9]{index=9}
+    padding: 1rem;
+  }
+  
+  :contentReference[oaicite:10]{index=10}
+    :contentReference[oaicite:11]{index=11} */
+    padding: inherit;          /* :contentReference[oaicite:12]{index=12}
+  }
+  
+  :contentReference[oaicite:13]{index=13}
+  .post-title {
+    color: teal;
+  }
+  
+  :contentReference[oaicite:14]{index=14}
+  .post em {
+    color: inherit;
+  }
+  
+  :contentReference[oaicite:15]{index=15} */
+  .site-footer {
+    :contentReference[oaicite:16]{index=16}* :contentReference[oaicite:17]{index=17}
+    :contentReference[oaicite:18]{index=18}
+    :contentReference[oaicite:19]{index=19}
+  }
+  
