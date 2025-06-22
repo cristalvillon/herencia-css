@@ -4,76 +4,47 @@ body {
     color: #333;
     line-height: 1.6;
   }
-  
-  .site-header {
-    :contentReference[oaicite:2]{index=2}
-    padding: 1rem;
-    :contentReference[oaicite:3]{index=3}
-  }
-  
-  :contentReference[oaicite:4]{index=4}
-  :contentReference[oaicite:5]{index=5}
-    :contentReference[oaicite:6]{index=6}
-    :contentReference[oaicite:7]{index=7}
-    color: inherit;
-  }
-  
-  :contentReference[oaicite:8]{index=8}
-  .custom-box {
-    :contentReference[oaicite:9]{index=9}
-    padding: 1rem;
-  }
-  
-  :contentReference[oaicite:10]{index=10}
-    :contentReference[oaicite:11]{index=11} */
-    padding: inherit;          /* :contentReference[oaicite:12]{index=12}
-  }
-  
-  :contentReference[oaicite:13]{index=13}
-  .post-title {
-    color: teal;
-  }
-  
-  :contentReference[oaicite:14]{index=14}
-  .post em {
-    color: inherit;
-  }
-  
-  :contentReference[oaicite:15]{index=15} */
-
-  .contenedor {
-    display: flex;
-    flex-direction: row; /* Dirección horizontal */
-    justify-content: space-around; /* Distribuye los elementos con espacio alrededor */
-    align-items: center; /* Alinea los elementos verticalmente al centro */
+.contenedor {
+   display: flex;
+   align-items: center;
     height: 200px;
     background-color: #f0f0f0;
   }
   
+  .contenedor-centro {
+  display: flex;
+  justify-content: center;  /* centra horizontalmente */
+  align-items: center;      /* centra verticalmente */
+  height: 200px;
+  background-color: #cce5ff;
+  gap: 10px; /* espacio entre elementos */
+}
+
+.elemento-centro {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  flex: 0 0 auto; /* tamaño fijo basado en contenido */
+  text-align: center;
+  border-radius: 5px;
+}
+
   .elemento {
-    background-color: #4CAF50;
+    background-color: #2a8f2d;
     color: white;
     padding: 20px;
     margin: 10px;
     flex: 1; 
     text-align: center;
   }
-  .contenedor {
-    flex-wrap: wrap; 
+
   @media (max-width: 600px) {
-    .contenedor {
-      flex-direction: column; 
-    }
+  .contenedor {
+    flex-direction: column;
   }
-  .elemento {
-    flex-grow: 1;
-    flex-shrink: 1; 
-    flex-basis: 100px; 
-  }
+}
+
+
+
     
-  .site-footer {
-    :contentReference[oaicite:16]{index=16}* :contentReference[oaicite:17]{index=17}
-    :contentReference[oaicite:18]{index=18}
-    :contentReference[oaicite:19]{index=19}
-  }
   
