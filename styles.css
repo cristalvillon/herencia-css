@@ -13,18 +13,18 @@ body {
   
   .contenedor-centro {
   display: flex;
-  justify-content: center;  /* centra horizontalmente */
-  align-items: center;      /* centra verticalmente */
+  justify-content: center;  
+  align-items: center;
   height: 200px;
   background-color: #cce5ff;
-  gap: 10px; /* espacio entre elementos */
+  gap: 10px; 
 }
 
 .elemento-centro {
   background-color: #007bff;
   color: white;
   padding: 20px;
-  flex: 0 0 auto; /* tamaño fijo basado en contenido */
+  flex: 0 0 auto; 
   text-align: center;
   border-radius: 5px;
 }
@@ -36,7 +36,54 @@ body {
     margin: 10px;
     flex: 1; 
     text-align: center;
-  }
+  } 
+
+  .relative-box {
+  position: relative;
+  height: 150px;
+  background-color: #e0e0e0;
+  border: 2px solid #bbb;
+  margin: 20px;
+  padding: 10px;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: crimson;
+  color: white;
+  padding: 8px 12px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.site-header {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  z-index: 1000;
+}
+
+.site-header h1,
+.site-header .main-nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  z-index: 999;
+}
+
 
   @media (max-width: 600px) {
   .contenedor {
